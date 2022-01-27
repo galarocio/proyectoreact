@@ -1,0 +1,10 @@
+.listContainer {display: flex;
+justify-content: center;}
+
+h1 {
+    font-size: 25px;
+    font-family: 'Roboto Mono', monospace, 300;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin-top: 50px;
+}

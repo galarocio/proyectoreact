@@ -1,7 +1,8 @@
 .nav {display: flex;
 min-height: 50px;
 background-color: #606c38;
-align-items: center;}
+align-items: center;
+}
 
 .nav-link {color:#fefae0;}
 .nav-link:hover {color:#87986a;}
@@ -20,7 +21,7 @@ ul {display: flex;
   
   li {
     display: inline;
-    font-size: 20px;
+    font-size: 17px;
     font-family: 'Roboto Mono', monospace, 300;
     text-transform: uppercase;
     letter-spacing: 4px;

@@ -1,13 +1,12 @@
 import "./NavBar.css";
-import CardWidget from "./CardWidget";
-let terceropcion = "Carrito";
+import Cart from "./CartWidget";
 
 function NavBar() {
   return (
     <>
+      <header></header>
       <nav>
         <ul className="nav justify-content-center">
-          <CardWidget />
           <li className="nav-item">
             <a className="nav-link" href="#">
               Inicio
@@ -20,10 +19,13 @@ function NavBar() {
           </li>
           <li className="nav-item">
             <a className="nav-link" href="#">
-              Carrito
+              + info
             </a>
           </li>
         </ul>
+        <div className="cartContainer">
+          <Cart />
+        </div>
       </nav>
     </>
   );
