@@ -1,6 +1,7 @@
 .nav {display: flex;
 min-height: 50px;
-background-color: #606c38;}
+background-color: #606c38;
+align-items: center;}
 
 .nav-link {color:#fefae0;}
 .nav-link:hover {color:#87986a;}
@@ -13,6 +14,7 @@ background-color: #606c38;}
 ul {display: flex;
     list-style-type: none;
     padding: 0;
+    margin-left: -140px;
 
   }
   
