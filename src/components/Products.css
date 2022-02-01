@@ -1,0 +1,17 @@
+.productsContainer {display: flex;
+justify-content: space-evenly;
+margin-top: 50px;}
+
+.cardText {
+    font-size: 15px;
+    font-family: 'Roboto Mono', monospace, 300;
+    letter-spacing: 1px;
+margin-top: 30px;
+margin-bottom: 25px;}
+
+.cardTitle {font-size: 20px;
+        font-family: 'Roboto Mono', monospace, 300;
+        letter-spacing: 2px;
+    text-transform: uppercase;
+display: flex;
+justify-content: center;}

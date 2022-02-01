@@ -1,11 +1,11 @@
-import cart from "../images/cart.webp";
+import cart from "../images/cart.svg";
 import "./CartWidget.css";
 
 const Cart = () => {
   return (
     <div>
       <a href="#">
-        <img src={cart} alt="cart" width="90px" className="cart"></img>
+        <img src={cart} alt="cart" className="cart"></img>
       </a>
     </div>
   );
