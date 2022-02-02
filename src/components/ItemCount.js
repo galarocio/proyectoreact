@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import ButtonGroup from "@mui/material/ButtonGroup";
 import "./ItemCount.css";
 
-const Counter = ({ stock, initial }) => {
+const Counter = ({ stock }) => {
   const [counter, setCounter] = useState(0);
 
   const incrementarContador = () => {

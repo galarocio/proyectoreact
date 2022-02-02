@@ -1,16 +1,16 @@
 import "./App.css";
 import Header from "./components/Header";
 import NavBar from "./components/NavBar";
-import Products from "./components/Products";
-import ItemListTitle from "./components/ItemListTitle";
+// import Products from "./components/Products";
+import ItemListContainer from "./components/ItemListContainer";
 
 function App() {
   return (
     <>
       <Header />
       <NavBar />
-      <ItemListTitle title="Nuestras plantas" />
-      <Products />
+      <ItemListContainer title="Nuestras plantas" />
+      {/* <Products /> */}
     </>
   );
 }
